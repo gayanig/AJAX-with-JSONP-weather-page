@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<!--By Gayani Gunasekera
+    Created on  : 23/05/18
+    Last update : 23/05/18
+    Excersice 2 - AJAX  with JSON -GETTING DATA FROM SERVER(NO LACAL DATA FILES IN THE DATA FOLDER)-->
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript &amp; jQuery - Chapter 8: Ajax &amp; JSON - JSONP</title>
+    <!-- <link rel="stylesheet" href="css/c08.css" /> -->
+    <link rel="stylesheet" href="css/styles.css" type = "text/css">
+  </head>
+  <body>
+
+    <header><h2>WEATHER</h2></header>
+    <!-- <h2>Today's forecast</h2> -->
+    <section id="content"></section>
+
+    <script src="js/weather.js"></script>
+    <!-- <script src="http://api.openweathermap.org/data/2.5/weather?id=2965140&APPID=youridhere&callback=cat"></script> //***ADD YOUR API KEY FROM THE WEBSITE
+    TO "youridhere" ON THIS LINK
+    Important : below in the link "cat" is the name of the function we calling
+    **To get a different location weather, get the location id from this list - http://openweathermap.org/help/city_list.txt( add this key to below "weather?id=.....")
+    **Add "units=metric&" to the link to convert temprature into C.Add this just before "APPID" on the link.
+   -->
+    <!-- <script src="http://api.openweathermap.org/data/2.5/weather?id=2965140&APPID=c06542ea180a9d39e8135c06e4a3835c&callback=cat"></script> -->
+    <script src="http://api.openweathermap.org/data/2.5/weather?id=1248991&units=metric&APPID=c06542ea180a9d39e8135c06e4a3835c&callback=cat"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+  color:#ABB0AB;
+}
+
+#content{
+margin-left: 260px;
+margin-right: 260px;
+border: 1px solid blue;
+text-align: center;
+background: #92CED9;
+}
+
+p{
+  color:grey;
+  font-weight: bold;
+}
+span{
+  color:blue;
+  font-weight: bold;
+}
+h1{
+  color:grey;
+
+}
+h2{
+  text-align: center;
+  color:black;
+}
